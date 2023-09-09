@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TRsGh2hcFGPASgHvNG6DiocOMcE6pIWCmqNjb5vnLXeIz/bawaH5A7RUKrZUmblhSZpdmr/CHr+tEkFguLvoZA==",
+  "dgSpecHash": "dxfLlBQWiEdptMA31UOpXNvhhVmEnk07KNSnSVSkJXUk9npbtdkz1teQTUD5XbV3rDwk3RXI67q5rOuzkNmYpA==",
   "success": true,
-  "projectFilePath": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\entjava\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jamzy\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jamzy\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
