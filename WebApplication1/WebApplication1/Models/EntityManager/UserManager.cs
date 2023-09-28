@@ -101,7 +101,6 @@ namespace MyWebApplication.Models.EntityManager
                     db.SaveChanges();
                 }
             }
-
         }
 
         public UsersModel GetAllUsers()
