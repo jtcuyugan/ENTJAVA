@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\f i l e s\\codes\\school codes\\ENTJAVA\\entjava\\WebApplication1\\WebApplication1.csproj": {}
+    "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\f i l e s\\codes\\school codes\\ENTJAVA\\entjava\\WebApplication1\\WebApplication1.csproj": {
+    "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\f i l e s\\codes\\school codes\\ENTJAVA\\entjava\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\f i l e s\\codes\\school codes\\ENTJAVA\\entjava\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\jamzy\\.nuget\\packages\\",
-        "outputPath": "D:\\f i l e s\\codes\\school codes\\ENTJAVA\\entjava\\WebApplication1\\obj\\",
+        "outputPath": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jamzy\\AppData\\Roaming\\NuGet\\NuGet.Config"

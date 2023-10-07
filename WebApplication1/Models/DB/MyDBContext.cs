@@ -53,7 +53,6 @@ namespace MyWebApplication.Models.DB
 
                 entity.Property(e => e.AccountImage)
                 .HasColumnName("AccountImage")
-                .HasMaxLength(8000)
                 .IsUnicode(false);
 
                 entity.Property(e => e.CreatedBy)
