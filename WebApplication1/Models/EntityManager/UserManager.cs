@@ -182,6 +182,42 @@ namespace MyWebApplication.Models.EntityManager
                 }
             }
         }
+
+        public UsersModel GetSpecificUsers(string LoginName)
+        {
+            UsersModel list = new UsersModel();
+ 
+            using (MyDBContext db = new MyDBContext())
+            {
+                var users = from u in db.Users
+                            join us in db.SystemUsers
+                                on u.UserID equals us.UserID
+                            join ur in db.UserRole
+                                on u.UserID equals ur.UserID
+                            join r in db.Role
+                                on ur.LookUpRoleID equals r.RoleID
+                            where us.LoginName == LoginName
+                            select new { u, us, r, ur };
+ 
+                list.Users = users.Select(records => new UserModel()
+                {
+                    AccountImage = records.u.AccountImage ?? string.Empty,
+                    UserID = records.us.UserID,
+                    ProfileID = records.u.ProfileID,
+                    LoginName = records.us.LoginName,
+                    FirstName = records.u.FirstName,
+                    LastName = records.u.LastName,
+                    Email = records.u.Email,
+                    Address = records.u.Address,
+                    PhoneNumber = records.u.PhoneNumber,
+                    Gender = records.u.Gender,
+                    CreatedBy = records.u.CreatedBy,
+                    RoleID = records.ur.LookUpRoleID,
+                    RoleName = records.r.RoleName                
+                }).ToList();
+            }
+            return list;
+        }
  
         public UsersModel GetAllUsers()
         {

@@ -25,19 +25,22 @@ namespace MyWebApplication.Controllers
         [AuthorizeRoles("Admin")]
         public ActionResult Users()
         {
-
             UserManager um = new UserManager();
             UsersModel user = um.GetAllUsers();
-
             return View(user);
         }
 
-        [AuthorizeRoles("Admin", "Member")]
+        [AuthorizeRoles("Admin","Member")]
         public ActionResult MyProfile()
         {
-
+            
             UserManager um = new UserManager();
-            UsersModel user = um.GetAllUsers();
+            string LoginName = User.Identity.Name;
+            UsersModel user = um.GetSpecificUsers(LoginName);
+            if (user == null)
+            {
+                return NotFound();
+            }
             return View(user);
         }
 
@@ -74,7 +77,7 @@ namespace MyWebApplication.Controllers
                 return RedirectToAction("Index"); // Redirect to a relevant action after successful update.
             }
             // Handle the case when the login name doesn't exist, e.g., return a relevant error view.
-            return RedirectToAction("LoginNameNotFound");
+            return NotFound();
         }
 
         [HttpPost]
