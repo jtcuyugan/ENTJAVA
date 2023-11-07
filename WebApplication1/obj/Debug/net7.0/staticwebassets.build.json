@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xsk8WsPfvAFT2op7eQy3OwaqrOJwqKvK9ZadUu2jZAg=",
+  "Hash": "hvuppvVgYVjZOLNuEQn0x5v3DNmBlBJbUZW7M4cl8/I=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+    },
+    {
+      "Identity": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\wwwroot\\css\\MyProfile.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/MyProfile.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MyProfile.css"
     },
     {
       "Identity": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\wwwroot\\css\\site.css",

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebApplication1.bundle.scp.css"
     },
     {
+      "Id": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\wwwroot\\css\\MyProfile.css",
+      "PackagePath": "staticwebassets\\css\\MyProfile.css"
+    },
+    {
       "Id": "d:\\f i l e s\\codes\\school codes\\ENTJAVA\\MyWebApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
